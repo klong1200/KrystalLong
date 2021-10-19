@@ -61,50 +61,42 @@ page that contains all the code you need for a new page.-->
               I also want to be a bit far from the Bay Area, but still in state, and I want to live in a dorm my first year to really get that college experience.
               The school should be diverse and I don't mind the sizes of each class.
               As for the tuition, I would love it if it was not so expensive.
-              What type of college should I go to?
+              Based on the information from the Home page and this information, what type of college do you think I should go to?
             </p>
           </li>
-          <select name="college_type" id="">
-              <option value="cc">Community College</option>
-              <option value="csu">California State University</option>
-              <option value="uc">University of California</option>
-              <option value="priv">Private College</option>
+          <input type="radio" id="one" name="college_type" value="cc">
+          <label for="one">Community College</label>
+          <br>
+          <input type="radio" id="two" name="college_type" value="csu">
+          <label for="two">California State University</label>
+          <br>
+          <input type="radio" id="three" name="college_type" value="uc">
+          <label for="three">University of California</label>
+          <br>
+          <input type="radio" id="four" name="college_type" value="priv">
+          <label for="four">Private College</label>
+
+          <br>
+          <br>
+          <br>
+
+          <li><p>Let's say that I want to go to a UC. Which one should I choose and why?</p></li>
+          <select name="uc_school" id="">
+            <option value="ucb">UC Berkeley</option>
+            <option value="ucd">UC Davis</option>
+            <option value="uci">UC Irvine</option>
+            <option value="ucla">UCLA</option>
+            <option value="ucm">UC Merced</option>
+            <option value="ucr">UC Riverside</option>
+            <option value="ucsd">UC San Diego</option>
+            <option value="ucsb">UC Santa Barbara</option>
+            <option value="ucsc">UC Santa Cruz</option>
           </select>
-
+          
           <br>
           <br>
 
-          <li><p>Look at the photo and answer the question.</p></li>
-          <a href="https://www.mentalfloss.com/article/533625/parking-spot-brain-teaser">
-              <img src="https://uk.toluna.com/dpolls_images/2018/08/02/11be3cfa-c391-4525-bfc7-19f4e8ac02ba_x365.jpg" alt="">
-          </a>
-          <br>
-          <br>
-          <input type="radio" id="one" name="car_riddle" value="18">
-          <label for="one">18</label>
-          <br>
-          <input type="radio" id="two" name="car_riddle" value="08">
-          <label for="two">08</label>
-          <br>
-          <input type="radio" id="three" name="car_riddle" value="87">
-          <label for="three">87</label>
-          <br>
-          <input type="radio" id="four" name="car_riddle" value="82">
-          <label for="four">82</label>
-
-          <br>
-          <br> 
-
-          <li>
-          <p>Answer the riddle below based on the given hints.</p>
-              <ul>
-                  <li>I have a neck</li>
-                  <li>I don't have a head</li>
-                  <li>I wear a cap</li>
-              </ul>
-              <p>What am I?</p>
-              <textarea name="third_riddle" id="" cols="30" rows="2"></textarea>
-          </li>
+          <textarea name="third_riddle" id="" cols="60" rows="5"></textarea>
 
           <br>
       </ol>
